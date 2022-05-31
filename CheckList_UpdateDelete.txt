@@ -1,0 +1,15 @@
+1. Criar o metodos de DELETE & UPDATE na DAO.
+// -> Update
+2. Passar os parâmetros GET na VIEW de listar.
+3. Criar o metodo getById na MODEL
+4. Na Controller, passar o id que vem do GET como parâmetro para o getById
+5. Adicionar os values com o model na VIEW do form.
+6. Verificar na Controller se o get de id exister.
+7. Operador ternário devolvendo um objeto preenchido ou um novo na MODEL.
+8. Adicionar o campo input do tipo hidden que recebe o id.
+9. Adicionar o $model = $_POST['ID']; na CONTROLLER.
+
+// -> Delete
+10. Criar a rota do delete e criar o metodo de delete na CONTROLLER.
+11. Chamar o metodo delete da MODEL e passar o parâmetro GET.
+12. Condição caso não tenha nenhum registro.
