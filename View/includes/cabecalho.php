@@ -14,13 +14,24 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Crud's
+            Cadastrar
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="/funcionario/form">Funcionário</a></li>
             <li><a class="dropdown-item" href="/pessoa/form">Pessoa</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="/produto/form">Produto</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Listar
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/funcionario">Funcionário</a></li>
+            <li><a class="dropdown-item" href="/pessoa">Pessoa</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/produto">Produto</a></li>
           </ul>
         </li>
       </ul>
