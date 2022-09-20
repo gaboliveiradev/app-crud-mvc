@@ -1,4 +1,8 @@
 <?php
+    namespace PHP_MVC\DAO;
+    use PHP_MVC\Model\PessoaModel;
+    use \PDO;
+
     class PessoaDAO extends DAO {
 
         public $conexao;

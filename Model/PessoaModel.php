@@ -1,4 +1,7 @@
 <?php
+    namespace PHP_MVC\Model;
+    use PHP_MVC\DAO\PessoaDAO;
+
     class PessoaModel {
        
         public $id, $nome, $email, $endereco, $telefone, $rg, $cpf, $data_nascimento;

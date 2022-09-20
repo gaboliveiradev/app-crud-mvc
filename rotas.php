@@ -1,4 +1,10 @@
 <?php
+    use PHP_MVC\Controller\{
+        PessoaController,
+        FuncionarioController,
+        ProdutoController
+    };
+
     $uri_parse = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
     switch($uri_parse) {

@@ -1,4 +1,7 @@
 <?php
+    namespace PHP_MVC\Model;
+    use PHP_MVC\DAO\FuncionarioDAO;
+
     class FuncionarioModel {
 
         public $id, $nome, $email, $cpf;

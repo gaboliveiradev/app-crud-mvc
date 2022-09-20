@@ -1,4 +1,8 @@
 <?php
+    namespace PHP_MVC\DAO;
+    use PHP_MVC\Model\FuncionarioModel;
+    use \PDO;
+
     class FuncionarioDAO extends DAO {
         
         public $conexao;

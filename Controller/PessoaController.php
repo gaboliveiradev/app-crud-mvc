@@ -1,4 +1,7 @@
 <?php
+    namespace PHP_MVC\Controller;
+    use PHP_MVC\Model\PessoaModel;
+
     class PessoaController extends Controller {
 
         public static function form() {

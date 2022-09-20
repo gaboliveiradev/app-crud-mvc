@@ -1,4 +1,7 @@
 <?php
+    namespace PHP_MVC\Controller;
+    use PHP_MVC\Model\ProdutoModel;
+
     class ProdutoController extends Controller {
         
         public static function form() {

@@ -1,4 +1,7 @@
 <?php
+    namespace PHP_MVC\Model;
+    use PHP_MVC\DAO\ProdutoDAO;
+
     class ProdutoModel {
 
         public $id, $nome, $quantidade, $preco;
