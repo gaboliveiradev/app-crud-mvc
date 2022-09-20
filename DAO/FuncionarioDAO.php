@@ -1,12 +1,10 @@
 <?php
-    class FuncionarioDAO {
+    class FuncionarioDAO extends DAO {
         
         public $conexao;
         public function __construct()
         {
-            include_once 'MySQL.php';
-    
-            $this->conexao = new MySQL();
+            
         }
 
         function insert(FuncionarioModel $model) {

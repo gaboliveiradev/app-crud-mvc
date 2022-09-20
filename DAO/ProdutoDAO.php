@@ -1,12 +1,10 @@
 <?php
-    class ProdutoDAO {
+    class ProdutoDAO extends DAO {
         
         public $conexao;
         public function __construct()
         {
-            include_once 'MySQL.php';
-    
-            $this->conexao = new MySQL();
+            
         }
 
         function insert(ProdutoModel $model) {

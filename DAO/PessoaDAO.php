@@ -1,12 +1,10 @@
 <?php
-    class PessoaDAO {
+    class PessoaDAO extends DAO {
 
         public $conexao;
         public function __construct()
         {
-            include_once 'MySQL.php';
-    
-            $this->conexao = new MySQL();
+            
         }
 
         function insert(PessoaModel $model) {
