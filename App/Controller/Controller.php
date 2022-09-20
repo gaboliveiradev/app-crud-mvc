@@ -1,17 +1,15 @@
 <?php
     namespace App\Controller;
-    use App\Model;
 
     abstract class Controller {
 
         protected static function render($view, $model = null) {
-            $file = "./View/modules/$view.php";
+            $file = VIEWS . $view . ".php";
 
             if(file_exists($file)) {
-                $model;
                 include $file;
             } else {
-                echo "Arquivo não localizado. Caminho: $file";
+                exit('Arquivo da View não encontrado. Arquivo: ' . $view);
             }
         }
     }
