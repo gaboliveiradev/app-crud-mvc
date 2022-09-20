@@ -5,6 +5,6 @@
         if(file_exists($file))
             include $file;
         else
-            exit("Arquivo não encontrado. Arquivo:" . $arq . "<br />");
+            exit("Arquivo não encontrado. Arquivo: " . $file . "<br />");
         //(file_exists($file)) ? include $file : exit("Arquivo não encontrado. Arquivo:" . $arq . "<br />");
     });

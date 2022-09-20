@@ -5,7 +5,7 @@
      * diretório.
      */
     DEFINE('BASEDIR', dirname(__FILE__, 2));
-    DEFINE('VIEWS', BASEDIR . "/View/modules");
+    DEFINE('VIEWS', BASEDIR . "/View/modules/");
 
     /*
      * Variáveis de Ambiente: as variáveis de ambiente são superglobal, ou seja ela está
