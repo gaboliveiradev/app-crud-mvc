@@ -2,7 +2,7 @@
     class MySQL extends PDO {
         private $dsn = "mysql:host=localhost:3307;dbname=php_mvc";
         private $user = "root";
-        private $pass = "etecjau";
+        private $pass = "mysqldev@2835";
 
         public function __construct() {
             try {
