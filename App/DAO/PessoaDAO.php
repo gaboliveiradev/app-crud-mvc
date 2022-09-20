@@ -1,6 +1,6 @@
 <?php
-    namespace PHP_MVC\DAO;
-    use PHP_MVC\Model\PessoaModel;
+    namespace App\DAO;
+    use App\Model\PessoaModel;
     use \PDO;
 
     class PessoaDAO extends DAO {

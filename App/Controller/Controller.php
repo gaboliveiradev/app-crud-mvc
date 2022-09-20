@@ -1,6 +1,6 @@
 <?php
-    namespace PHP_MVC\Controller;
-    use PHP_MVC\Model;
+    namespace App\Controller;
+    use App\Model;
 
     abstract class Controller {
 

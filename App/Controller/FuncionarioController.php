@@ -1,6 +1,6 @@
 <?php
-    namespace PHP_MVC\Controller;
-    use PHP_MVC\Model\FuncionarioModel;
+    namespace App\Controller;
+    use App\Model\FuncionarioModel;
 
     class FuncionarioController extends Controller {
 

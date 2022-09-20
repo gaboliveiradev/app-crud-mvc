@@ -1,6 +1,6 @@
 <?php
-    namespace PHP_MVC\Controller;
-    use PHP_MVC\Model\PessoaModel;
+    namespace App\Controller;
+    use App\Model\PessoaModel;
 
     class PessoaController extends Controller {
 

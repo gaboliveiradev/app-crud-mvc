@@ -1,5 +1,5 @@
 <?php
-    namespace PHP_MVC\DAO;
+    namespace App\DAO;
     use \PDO;
     use \PDOException;
 

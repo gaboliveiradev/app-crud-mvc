@@ -1,6 +1,6 @@
 <?php
-    namespace PHP_MVC\DAO;
-    use PHP_MVC\Model\FuncionarioModel;
+    namespace App\DAO;
+    use App\Model\FuncionarioModel;
     use \PDO;
 
     class FuncionarioDAO extends DAO {

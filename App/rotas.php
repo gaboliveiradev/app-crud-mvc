@@ -1,5 +1,5 @@
 <?php
-    use PHP_MVC\Controller\{
+    use App\Controller\{
         PessoaController,
         FuncionarioController,
         ProdutoController

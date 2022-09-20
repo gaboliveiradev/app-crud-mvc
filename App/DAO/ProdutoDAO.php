@@ -1,6 +1,6 @@
 <?php
-    namespace PHP_MVC\DAO;
-    use PHP_MVC\Model\ProdutoModel;
+    namespace App\DAO;
+    use App\Model\ProdutoModel;
     use \PDO;
 
     class ProdutoDAO extends DAO {

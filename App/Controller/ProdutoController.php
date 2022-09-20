@@ -1,6 +1,6 @@
 <?php
-    namespace PHP_MVC\Controller;
-    use PHP_MVC\Model\ProdutoModel;
+    namespace App\Controller;
+    use App\Model\ProdutoModel;
 
     class ProdutoController extends Controller {
         
