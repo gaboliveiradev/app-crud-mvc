@@ -13,5 +13,5 @@
      */ 
     $_ENV['db']['host'] = "localhost:3307";
     $_ENV['db']['user'] = "root";
-    $_ENV['db']['pass'] = "mysqldev@2835";
+    $_ENV['db']['pass'] = "etecjau";
     $_ENV['db']['dbname'] = "php_mvc";

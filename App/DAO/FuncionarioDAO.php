@@ -37,7 +37,7 @@
             $stmt->bindValue(1, $id);
             $stmt->execute();
 
-            return $stmt->fetchObject("FuncionarioModel");
+            return $stmt->fetchObject("App\Model\FuncionarioModel");
         }
 
         function update(FuncionarioModel $model) {

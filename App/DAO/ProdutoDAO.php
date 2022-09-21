@@ -48,7 +48,7 @@
             $stmt->bindValue(1, $id);
             $stmt->execute();
 
-            return $stmt->fetchObject("ProdutoModel");
+            return $stmt->fetchObject("App\Model\ProdutoModel");
         }
 
         function delete(int $id) {

@@ -78,6 +78,6 @@
             /*  Passando como parâmetro o "PessoaModel", desta forma ele vai preencher um objeto
             *   com os dados que vier do SELECT. Preencher meus atributos.
             */
-            return $stmt->fetchObject("PessoaModel");
+            return $stmt->fetchObject("App\Model\PessoaModel");
         }
     }
